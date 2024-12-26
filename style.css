@@ -1,0 +1,58 @@
+#menu, #check{
+    display: none;
+}
+#navbar{
+    background-image: linear-gradient(to bottom right, rgb(255, 102, 0),yellow);  
+}
+@media screen and (max-width: 657px ) {
+    #navbar{
+        background-image: linear-gradient(to  right, rgb(255, 102, 0),rgb(255, 174, 0));  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    #check{
+        display: block;
+    }
+    #navul{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-image: linear-gradient(to bottom right, rgb(255, 102, 0),yellow);
+        width: 100%;
+      
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: none;
+        
+    }
+    #menu{
+        display: block;
+        font-size: 30px;
+        
+
+    }
+    #menulogo{
+        display: flex;
+        margin-left: auto;
+        margin-right: 20px;
+        padding:10px;
+        border-radius: 50%;
+    }
+    #menulogo:hover{
+        background-color: black;
+        color: yellow;
+        transition-duration: .4s;
+    }
+    #check:checked~ #navul{
+        display: block;
+    }
+}
+
+
+
+
