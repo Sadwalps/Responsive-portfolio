@@ -10,23 +10,131 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css link -->
      <link rel="stylesheet" href="./style.css">
+     <!-- boxicon cdn -->
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 <body>
     <!-- nav bar -->
      <div class="flex justify-between  pt-7 pb-7" id="navbar">
-        <a href=""><span>s</span></a>
+        <a href=""><span class="font-bold text-3xl ml-5 px-4 py-2 rounded hover:text-yellow-400 hover:bg-black transition">SADWAL</span></a>
         <input type="checkbox" id="check">
         <label for="check" id="menulogo">
             <i id="menu" class="fa-solid fa-bars"></i>
         </label>
-        <div>
+        
             <ul class="flex text-2xl gap-9  pr-7 font-bold " id="navul">
                 <a href=""><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >Home</li></a>
                 <a href=""><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >Home</li></a>
                 <a href=""><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >Home</li></a>
                 <a href=""><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >Home</li></a>
             </ul>
-        </div>
+        
      </div>
+
+     <!-- home  -->
+      <div class="bg-black h-dvh text-center flex flex-col justify-center items-center">
+        <h1 class="text-yellow-400 text-4xl lg:text-6xl md:text-5xl font-bold">HI IM <SPAN class="text-white">,</SPAN>SADWAL PS <SPAN class="text-white">.</SPAN></h1>
+        <h2 class="text-white text-2xl lg:text-3xl md:text-3xl pt-5">FRONT-END DEVELOPER</h2>
+        <h3 class="text-yellow-400 text-2xl lg:text-3xl md:text-3xl pt-5" >DOWNLOAD CV</h3>
+        <button class="px-6 py-4 rounded-full bg-yellow-400 text-2xl font-bold mt-7" id="HOV"><i class="fa-solid fa-arrow-down" ></i></button>
+        
+      </div>
+
+      <!-- about -->
+       <div class="text-center bg-zinc-950 pt-7 lg:pr-20 lg:pl-20 lg:pb-7">
+        <h1 class="text-yellow-400 lg:text-4xl md:text-4xl text-2xl font-bold">ABOUT ME</h1>
+        <div class="grid lg:grid-cols-2 md:grid-cols-2">
+            <div class="lg:mt-9 md:mt-7 mt-4">
+                <img src="" alt="profile photo">
+            </div>
+          <div class="lg:mt-9 md:mt-7 mt-4"><p class="text-white text-justify p-4 lg:text-lg md:text-lg"><span class="text-yellow-400 lg:text-xl md:text-xl">Hello i'm Sadwal ps,</span> a passionate web developer with a bachelor's degree in computer science. I'm currently enhancing my skills in web development through ME(A)RN Stack course in luminar technolab. <br> <br><span class="text-yellow-400 lg:text-xl md:text-xl">My Journey:</span> <br>After completeting my degree, i discovered my love for web development. The intersection of technology and creativity fascinates me, and i'm exicited to build dynamic and user-friendly web applications. <br><br> I aim to contribute to impactful projects and collaborate with talend individuals in the tech community. I'm eager to learn and grow as a developer</p>
+          </div>
+       </div>
+       </div>
+
+       <!-- education -->
+        <div class="text-center bg-zinc-950 pt-7 lg:pr-20 lg:pl-20 lg:pb-7">
+            <h1 class="text-yellow-400 lg:text-3xl md:text-3xl text-xl font-bold">EDUCATION</h1>
+            <div class="grid lg:grid-cols-2 md:grid-cols-2 text-white text-center">
+                <div class="p-9 text-center">
+                    <h1 class="text-xl">plus two</h1>
+                    <div class="w-28 bg-yellow-400 h-1 inline-block"></div>
+                    <p class="text-xl pt-2">2325-376</p>
+                    <p class="text-xl">st thomas thope hss thrissur</p>
+                </div>
+                <div>
+                    <div class="p-9 text-center">
+                        <h1 class="text-xl">plus two</h1>
+                        <div class="w-28 bg-yellow-400 h-1 inline-block"></div>
+                        <p class="text-xl pt-2">2325-376</p>
+                        <p class="text-xl">st thomas thope hss thrissur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- skills -->
+         <div class="text-center bg-zinc-800 pt-7 lg:pr-20 lg:pl-20 lg:pb-7">
+            <h1 class="text-yellow-400 lg:text-4xl md:text-4xl text-2xl font-bold">SKILLS</h1>
+            <div class=" grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 lg:pt-20 md:pt-14 pt-7" >
+              
+               <div class="mb-7">
+                <div class="flex justify-center ">
+                    <div class="bg-white lg:h-80 md:h-64 sm:h-56 h-56 lg:w-14  md:w-11 sm:w-11 w-11 rounded flex items-end">
+                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 h-10 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
+                            <h2 class="font-bold">50%</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-html5"></i></div>
+               </div>
+               
+               <div class="mb-7">
+                <div class="flex justify-center ">
+                    <div class="bg-white lg:h-80 md:h-64 sm:h-56 h-56 lg:w-14  md:w-11 sm:w-11 w-11 rounded flex items-end">
+                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 h-10 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
+                            <h2 class="font-bold">50%</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-html5"></i></div>
+               </div>
+
+               <div class="mb-7">
+                <div class="flex justify-center ">
+                    <div class="bg-white lg:h-80 md:h-64 sm:h-56 h-56 lg:w-14  md:w-11 sm:w-11 w-11 rounded flex items-end">
+                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 h-10 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
+                            <h2 class="font-bold">50%</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-html5"></i></div>
+               </div>
+
+               <div class="mb-7">
+                <div class="flex justify-center ">
+                    <div class="bg-white lg:h-80 md:h-64 sm:h-56 h-56 lg:w-14  md:w-11 sm:w-11 w-11 rounded flex items-end">
+                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 h-10 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
+                            <h2 class="font-bold">50%</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-html5"></i></div>
+               </div>
+
+               <div class="mb-7">
+                <div class="flex justify-center ">
+                    <div class="bg-white lg:h-80 md:h-64 sm:h-56 h-56 lg:w-14  md:w-11 sm:w-11 w-11 rounded flex items-end">
+                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 h-10 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
+                            <h2 class="font-bold">50%</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-html5"></i></div>
+               </div>
+               
+                
+            </div>
+         </div>
 </body>
 </html>
