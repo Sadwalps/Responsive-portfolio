@@ -16,24 +16,24 @@
 <body>
     <!-- nav bar -->
      <div class="flex justify-between  pt-7 pb-7" id="navbar">
-        <a href=""><span class="font-bold text-3xl ml-5 px-4 py-2 rounded hover:text-yellow-400 hover:bg-black transition">SADWAL</span></a>
+        <a href="#home"><span class="font-bold text-3xl ml-5 px-4 py-2 rounded hover:text-yellow-400 hover:bg-black transition">SADWAL</span></a>
         <input type="checkbox" id="check">
         <label for="check" id="menulogo">
             <i id="menu" class="fa-solid fa-bars"></i>
         </label>
         
             <ul class="flex text-2xl gap-9  pr-7 font-bold " id="navul">
-                <a href=""><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >HOME</li></a>
-                <a href=""><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >ABOUT</li></a>
-                <a href=""><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >SKILLS</li></a>
-                <a href=""><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >PROJECTS</li></a>
-                <a href=""><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >CONTACT</li></a>
+                <a href="#home"><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >HOME</li></a>
+                <a href="#about"><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >ABOUT</li></a>
+                <a href="#skills"><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >SKILLS</li></a>
+                <a href="#projects"><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >PROJECTS</li></a>
+                <a href="#contact"><li class= "px-4 py-2 rounded  hover:bg-black px-4 py-2 rounded  hover:text-yellow-400 transition" >CONTACT</li></a>
             </ul>
         
      </div>
 
      <!-- home  -->
-      <div class="bg-black h-dvh text-center flex flex-col justify-center items-center">
+      <div class="bg-black h-dvh text-center flex flex-col justify-center items-center" id="home">
         <h1 class="text-yellow-400 text-4xl lg:text-6xl md:text-5xl font-bold">HI IM <SPAN class="text-white">,</SPAN>SADWAL PS <SPAN class="text-white">.</SPAN></h1>
         <h2 class="text-white text-2xl lg:text-3xl md:text-3xl pt-5">FRONT-END DEVELOPER</h2>
         <h3 class="text-yellow-400 text-2xl lg:text-3xl md:text-3xl pt-5" >DOWNLOAD CV</h3>
@@ -42,7 +42,7 @@
       </div>
 
       <!-- about -->
-       <div class="text-center bg-zinc-950 pt-7 lg:pr-20 lg:pl-20 lg:pb-7">
+       <div class="text-center bg-zinc-950 pt-7 lg:pr-20 lg:pl-20 lg:pb-7" id="about">
         <h1 class="text-yellow-400 lg:text-4xl md:text-4xl text-2xl font-bold">ABOUT ME</h1>
         <div class="grid lg:grid-cols-2 md:grid-cols-2">
             <div class="lg:mt-9 md:mt-7 mt-4">
@@ -58,32 +58,32 @@
             <h1 class="text-yellow-400 lg:text-3xl md:text-3xl text-xl font-bold">EDUCATION</h1>
             <div class="grid lg:grid-cols-2 md:grid-cols-2 text-white text-center">
                 <div class="p-9 text-center">
-                    <h1 class="text-xl">plus two</h1>
+                    <h1 class="text-xl">COMPUTER SCIENCE</h1>
                     <div class="w-28 bg-yellow-400 h-1 inline-block"></div>
-                    <p class="text-xl pt-2">2325-376</p>
-                    <p class="text-xl">st thomas thope hss thrissur</p>
+                    <p class="text-xl pt-2">2019-2021</p>
+                    <p class="text-xl">ST. THOMAS HIGHER SECONDARY SCHOOL THOPE, THRISSUR</p>
                 </div>
                 <div>
                     <div class="p-9 text-center">
-                        <h1 class="text-xl">plus two</h1>
+                        <h1 class="text-xl">BSC COMPUTER SCIENCE</h1>
                         <div class="w-28 bg-yellow-400 h-1 inline-block"></div>
-                        <p class="text-xl pt-2">2325-376</p>
-                        <p class="text-xl">st thomas thope hss thrissur</p>
+                        <p class="text-xl pt-2">2021-2024</p>
+                        <p class="text-xl">SRI C ACHUTHA MENON GOVERNMENT COLLEGE, THRISSUR</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- skills -->
-         <div class="text-center bg-zinc-800 lg:pt-20 md:pt-14 pt-7 lg:pr-20 lg:pl-20 lg:pb-7">
+         <div class="text-center bg-zinc-800 lg:pt-20 md:pt-14 pt-7 lg:pr-20 lg:pl-20 lg:pb-7" id="skills">
             <h1 class="text-yellow-400 lg:text-4xl md:text-4xl text-2xl font-bold">MY SKILLS</h1>
             <div class=" grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 lg:pt-20 md:pt-14 pt-7" >
               
                <div class="mb-7">
                 <div class="flex justify-center ">
                     <div class="bg-white lg:h-80 md:h-64 sm:h-56 h-56 lg:w-14  md:w-11 sm:w-11 w-11 rounded flex items-end">
-                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 h-10 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
-                            <h2 class="font-bold">50%</h2>
+                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 lg:h-72 md:h-52 sm:h-48 h-48 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
+                            <h2 class="font-bold">85%</h2>
                         </div>
                     </div>
                 </div>
@@ -93,45 +93,45 @@
                <div class="mb-7">
                 <div class="flex justify-center ">
                     <div class="bg-white lg:h-80 md:h-64 sm:h-56 h-56 lg:w-14  md:w-11 sm:w-11 w-11 rounded flex items-end">
-                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 h-10 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
-                            <h2 class="font-bold">50%</h2>
+                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 lg:h-64 md:h-48 sm:h-44 h-44 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
+                            <h2 class="font-bold">80%</h2>
                         </div>
                     </div>
                 </div>
-                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-html5"></i></div>
+                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-css3-alt"></i> </div>
                </div>
 
                <div class="mb-7">
                 <div class="flex justify-center ">
                     <div class="bg-white lg:h-80 md:h-64 sm:h-56 h-56 lg:w-14  md:w-11 sm:w-11 w-11 rounded flex items-end">
-                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 h-10 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
-                            <h2 class="font-bold">50%</h2>
+                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 lg:h-56 md:h-40 sm:h-36 h-36 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
+                            <h2 class="font-bold">70%</h2>
                         </div>
                     </div>
                 </div>
-                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-html5"></i></div>
+                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-bootstrap"></i> </div>
                </div>
 
                <div class="mb-7">
                 <div class="flex justify-center ">
                     <div class="bg-white lg:h-80 md:h-64 sm:h-56 h-56 lg:w-14  md:w-11 sm:w-11 w-11 rounded flex items-end">
-                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 h-10 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
-                            <h2 class="font-bold">50%</h2>
+                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 lg:h-60 md:h-44 sm:h-40 h-40 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
+                            <h2 class="font-bold">75%</h2>
                         </div>
                     </div>
                 </div>
-                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-html5"></i></div>
+                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"> <img id="tailwind" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAcVJREFUSEvt1U+ITmEUBvDfjKKmCKXYoGwsLKxsKKWQQsrWYtTsJE0kzWxkY0XsZCMLWUgWSlJsJLObSWlKSiEaC/9SGiPcU++n2+1+974zfZmF79bb7d57zvOc85w/d8AiXQOLxKtP/M+U70udI/VmbMN6fMJjPMtxLNvMR+rluIiRGpLPuIJx/MoJIpd4sMjyHva2gD7CYUQgjVcucWRyAveLrOZwAGu6IL/EHryqfF+LdZiM9znEYXMJoyUZV+BcCqaOfwYncaPwXZmUCv+dmM0ljtp+x88ahl24hdVt0mIY1zt2ORm3YW7EXWxpMDyPsYV2dVMAS7Ad+7EvBfEezwuns3hSde6W8Y5Uw5jZaIjpok5P8RC3O3Vqk6Lpex1xyHKmwSm68mAxz297SRwNcC0D8CMOpa1VNV+KON9yM16GWAAX0v0LjqTnupn9gaO4id+JJGp9GcdL72r5y1JvxTt8qFhuSrXd0CWDN3iAoaKJdqeROdWmWu44rcKdtACaMKcQsx0/j56szADpyHisBjGkvorT+NpGmru5qjixpaIscULe15jAixzCXm6u+fD9tc2t8YLAc8ep5+B94rIC/1+N/wC5nEYfs/dLUQAAAABJRU5ErkJggg=="/></div>
                </div>
 
                <div class="mb-7">
                 <div class="flex justify-center ">
                     <div class="bg-white lg:h-80 md:h-64 sm:h-56 h-56 lg:w-14  md:w-11 sm:w-11 w-11 rounded flex items-end">
-                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 h-10 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
+                        <div class="bg-gradient-to-b from-yellow-400 to-orange-600 lg:h-40 md:h-36 sm:h-32 h-32 lg:w-14  md:w-11 sm:w-11 w-11  absolute rounded  flex items-center justify-center">
                             <h2 class="font-bold">50%</h2>
                         </div>
                     </div>
                 </div>
-                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-html5"></i></div>
+                <div class="lg:text-5xl md:text-4xl sm:text-3xl text-3xl  bg-yellow-400 inline-block lg:w-14 md:w-11 sm:w-11 w-11 rounded mt-4"><i class="fa-brands fa-js"></i> </div>
                </div>
                
                 
@@ -139,7 +139,7 @@
          </div>
 
          <!-- projects -->
-         <div class="text-center bg-neutral-900 lg:pt-20 md:pt-14 pt-7 lg:pr-20 lg:pl-20 lg:pb-7">
+         <div class="text-center bg-neutral-900 lg:pt-20 md:pt-14 pt-7 lg:pr-20 lg:pl-20 lg:pb-32" id="projects">
          <h1 class="text-yellow-400 lg:text-4xl md:text-4xl text-2xl font-bold">MY PROJECTS</h1>
          <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 lg:pt-20 md:pt-14 pt-7" id="projectdiv">
             <div class="w-100 pb-7">
@@ -191,10 +191,10 @@
             <div class="w-100 pb-7">
                 <div class=" h-48 flex justify-center items-center">
                     <a href="">
-                        <img src="./media/portfolio photo.png" alt="" class="w-72 hover:w-80 rounded " >
+                        <img src="./media/music event photo.png" alt="" class="w-72 hover:w-80 rounded " >
                     </a>
                 </div>
-                <h2 class="font-bold text-yellow-400 lg:text-xl">Simple Portfolio Website</h2>
+                <h2 class="font-bold text-yellow-400 lg:text-xl">Group project(music event)</h2>
                 
                 <h3 class="font-bold text-white ">Technologies uesd:</h3>
                 <ul class="text-white">
@@ -211,7 +211,7 @@
          </div>
 
          <!-- contact -->
-          <div class="bg-stone-800 text-center lg:pt-20 md:pt-14 pt-7 lg:pb-7 pb-4">
+          <div class="bg-stone-800 text-center lg:pt-20 md:pt-14 pt-7 lg:pb-7 pb-4" id="contact">
             <h1 class="text-yellow-400 lg:text-4xl md:text-4xl text-2xl font-bold">CONTACT ME</h1>
             <div class="grid lg:grid-cols-3 lg:pt-20 md:pt-14 pt-7 ">
                 <div></div>
@@ -226,15 +226,15 @@
                         <!-- conatct logo  -->
                          <div class="flex justify-center gap-7 lg:pt-9 md:pt-7 sm:pt-5 pt-5">
                             <div class="h-14 w-14  text-4xl hover:text-5xl hover:text-yellow-400 text-white">
-                                <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
                             </div>
                             
                             <div class="h-14 w-14  text-4xl hover:text-5xl hover:text-yellow-400 text-white">
-                                <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
                             </div>
 
                             <div class="h-14 w-14  text-4xl hover:text-5xl hover:text-yellow-400 text-white">
-                                <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                                <a href=""><i class="fa-brands fa-github"></i></a>
                             </div>
                          </div>
 
@@ -253,24 +253,24 @@
            <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 " id="footer">
             <div class="flex justify-center gap-7 lg:pt-9 md:pt-7 sm:pt-5 pt-5">
                 <div class="h-14 w-14  text-4xl hover:text-5xl hover:text-white text-black">
-                    <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></i></a>
                 </div>
                 
                 <div class="h-14 w-14  text-4xl hover:text-5xl hover:text-white text-black">
-                    <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
                 </div>
 
                 <div class="h-14 w-14  text-4xl hover:text-5xl hover:text-white text-black">
-                    <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
                 </div>
              </div>
-            <div class="text-center p-7 font-bold">
+            <div class="text-center p-7 font-bold flex flex-col justify-center items-center">
                 <ul >
-                    <a href=""><li class="hover:text-white ">HOME</li></a>
-                    <a href=""><li class="hover:text-white">ABOUT</li></a>
-                    <a href=""><li class="hover:text-white">SKILLS</li></a>
-                    <a href=""><li class="hover:text-white">PROJECTS</li></a>
-                    <a href=""><li class="hover:text-white">CONTACT</li></a>
+                    <a href="#home"><li class="hover:text-white ">HOME</li></a>
+                    <a href="#about"><li class="hover:text-white">ABOUT</li></a>
+                    <a href="#skills"><li class="hover:text-white">SKILLS</li></a>
+                    <a href="#projects"><li class="hover:text-white">PROJECTS</li></a>
+                    <a href="#contact"><li class="hover:text-white">CONTACT</li></a>
                 </ul>
             </div>
            </div>
